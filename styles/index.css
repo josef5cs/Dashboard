@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: radial-gradient(#530055,#250025, #000000);
+    background-image: radial-gradient(#78007a,#250025, #000000);
     min-height: 100dvh;
     background-repeat: no-repeat;
     display: flex;
@@ -23,7 +23,7 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    background-image: radial-gradient(#770079 43%, #000000);
+    background-image: radial-gradient(#750077 42%, #000000);
     font-size: 20px;
     font-weight: 900;
     
@@ -102,17 +102,18 @@ body{
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #770079;
+    background-color: #750077;
     outline:none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #input2{
     margin: 5%;
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #770079;
+    background-color: #750077;
     outline:none;
+    color: white
 }
 #divLembrar{
     height: 20%;
@@ -178,6 +179,16 @@ body{
 
 #divCadastrarELembrar a:hover{
     color: rgb(234, 0, 255);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    /* Substitua #ffffff pela cor de fundo do seu input */
+    -webkit-box-shadow: 0 0 0 30px #750077 inset !important;
+    /* Substitua #000000 pela cor do texto do seu input */
+    -webkit-text-fill-color: #f7f3f3 !important;
 }
 
 
