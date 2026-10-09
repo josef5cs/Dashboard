@@ -21,12 +21,12 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-image: radial-gradient(#750077 50%, #000000);
+    background-image: radial-gradient(#750077 30%, #000000);
     font-size: 20px;
     font-weight: 900;
-    
+
 }
 
 
@@ -45,6 +45,7 @@ body{
     align-items: center;
     width: 100%;
     height:30%;
+
 }
 #login{
     display: flex;
@@ -81,20 +82,43 @@ body{
 #divLogin{
     border-bottom: 1px solid rgb(0, 0, 0);
     width: 65%;
-    height: 20%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
+    
 }
-#divSenha{
+#divSenha1{
     border-bottom: 1px solid rgb(0, 0, 0);
     width: 65%;
-    height: 20%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  
+}
+#divSenha2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 65%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+}
+#divFrase{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 65%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 #input1{
@@ -102,46 +126,48 @@ body{
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #750077;
+    background-color: #75007700;
     outline:none;
-    color: black;
+    color: rgb(255, 251, 251);
 }
 #input2{
     margin: 5%;
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #750077;
+    background-color: #75007700;
     outline:none;
+    color: rgb(255, 251, 251)
 }
 #input3{
     margin: 5%;
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #750077;
+    background-color: #75007700;
     outline:none;
+    color: rgb(255, 251, 251)
 }
-#divLembrar{
-    height: 20%;
-    width: 65%;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    color: rgb(0, 0, 0);
-    font-size: clamp(5px, 17px, 17px);
-    font-style: italic;
+#input4{
+    margin: 5%;
+    width: 80%;
+    height: 50%;
+    border: none;
+    background-color: #75007700;
+    outline:none;
+    color: rgb(255, 251, 251)
 }
 
 #divBotao{
-    height: 20%;
+    height: 30%;
     width: 65%;
     display: flex;
     justify-content:center;
     align-items:flex-end;
+  
 }
 
-#botaoLogin {
+#botaoCadastrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,9 +184,11 @@ body{
     position: relative;
     overflow: hidden;
     transition: all .5s ;
+    font-weight: 600;
+    
 }
 
-#botaoLogin:hover{
+#botaoCadastrar:hover{
     width: 95%;
     height: 80%;
     color: rgb(170, 170, 170);
@@ -169,20 +197,17 @@ body{
 #divVoltar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     height: 20%;
     text-decoration: none;
-
-
 }
 
 #divVoltar a{
-    text-decoration: none;
     font-size: 17px;
     color: black;
     transition: 1s;
-    font-style: italic;
+    color: rgb(170, 170, 170)
 }
 
 #divVoltar a:hover{
@@ -195,8 +220,8 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
     /* Substitua #ffffff pela cor de fundo do seu input */
-    -webkit-box-shadow: 0 0 0 30px #750077 inset !important;
+    -webkit-box-shadow: 0 0 0 0 #8d028f07 inset !important;
     /* Substitua #000000 pela cor do texto do seu input */
-    -webkit-text-fill-color: #f7f3f3 !important;
+    -webkit-text-fill-color: #000000 !important;
 }
 

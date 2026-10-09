@@ -23,7 +23,7 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    background-image: radial-gradient(#750077 42%, #000000);
+    background-image: radial-gradient(#440046 70%, #000000);
     font-size: 20px;
     font-weight: 900;
     
@@ -48,7 +48,7 @@ body{
 }
 #login{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: column nowrap;
     width: 100%;
@@ -62,6 +62,7 @@ body{
     flex-flow: column nowrap;
     width: 100%;
     height: 80%;
+    
 }
 
 .linha1{
@@ -102,7 +103,7 @@ body{
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #750077;
+    background-color: #75007700;
     outline:none;
     color: rgb(255, 255, 255);
 }
@@ -111,7 +112,7 @@ body{
     width: 80%;
     height: 50%;
     border: none;
-    background-color: #750077;
+    background-color: #75007700;
     outline:none;
     color: white
 }
@@ -151,6 +152,7 @@ body{
     position: relative;
     overflow: hidden;
     transition: all .5s ;
+    font-weight: 600;
 }
 
 #botaoLogin:hover{
@@ -170,11 +172,9 @@ body{
 }
 
 #divCadastrarELembrar a{
-    text-decoration: none;
     font-size: 17px;
-    color: black;
     transition: 1s;
-    font-style: italic;
+    color: rgb(170, 170, 170)
 }
 
 #divCadastrarELembrar a:hover{
@@ -186,7 +186,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
     /* Substitua #ffffff pela cor de fundo do seu input */
-    -webkit-box-shadow: 0 0 0 30px #750077 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #440046 inset !important;
     /* Substitua #000000 pela cor do texto do seu input */
     -webkit-text-fill-color: #f7f3f3 !important;
 }

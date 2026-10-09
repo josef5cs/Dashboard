@@ -1,6 +1,7 @@
 const loginUsuario = document.querySelector("#input1")
 const senha1 = document.querySelector("#input2")
 const senha2 = document.querySelector("#input3")
+const frase = document.querySelector("#input4")
 const formLogin = document.querySelector("#boxLogin")
 
 const url ="http://localhost:3000/cadastros"
@@ -29,7 +30,8 @@ formLogin.addEventListener("submit", (e) => {
         } else{
             let cadastroNovo = {
             usuario: loginUsuario.value,
-            senha: senha1.value
+            senha: senha2.value,
+            frase: frase.value
             }
 
             cadastroNovo = JSON.stringify(cadastroNovo)
@@ -46,7 +48,7 @@ async function postCadastro(cadastroNovo){
         headers: {"Content-type": "application/json"}
     });
     alert("Cadastro efetuado com sucesso!")
-    
+
 }
 
 

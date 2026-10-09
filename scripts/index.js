@@ -3,6 +3,7 @@ const url ="http://localhost:3000/cadastros"
 
 const loginAtual = document.querySelector("#input1")
 const senhaAtual = document.querySelector("#input2")
+const checkBox = document.querySelector("#inputCheckbox")
 
 async function verificar(){
 
@@ -17,6 +18,12 @@ async function verificar(){
     if(loginValido){
         alert("Login realizado com sucesso!");
         window.location.href="dashboard.html"
+        if(!checkBox){
+            document.querySelector("#input1").value=""
+            document.querySelector("#input2").value=""
+        } else{
+            return
+        }
     }else{
         alert("Login ou senha errado!");
     }

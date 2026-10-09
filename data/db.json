@@ -3,17 +3,26 @@
     {
       "usuario": "josef5cs@hotmail.com",
       "senha": 100310980,
+      "frase": "A mesma senha de sempre",
       "id": "M1cDxcf_s9I"
     },
     {
-      "usuario": "jrpereira@uol.com",
-      "senha": 123456789,
-      "id": "bcJT_9vM7a8"
+      "usuario": "jrpereira@uol.com.br",
+      "senha": "Ba11051988",
+      "frase": "A que você copiou dele!",
+      "id": "0EaKcp_Dogk"
     },
     {
       "usuario": "juniorpereiraster@gmail.com",
       "senha": "100310980",
-      "id": "iI-3Y9KsEC8"
+      "frase": "cem...",
+      "id": "afEARbT6Xxg"
+    },
+    {
+      "usuario": "asdas@asdas.com",
+      "senha": "100310980",
+      "frase": "asdasd",
+      "id": "W_lm45K6PBg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
